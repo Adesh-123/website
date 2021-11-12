@@ -1,0 +1,26 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.navbars{
+  background-color:rgb(182, 32, 32);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-decoration: underline;
+  font-size: 34px;
+  color:white;
+}
+.format{
+  display:flex;
+  justify-content:space-around;
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px){
+     .navbars{
+       width:150%;
+     }  
+  
+}
